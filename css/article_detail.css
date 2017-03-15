@@ -12,31 +12,57 @@
 
 .des_words{color: #919191;font-size: 0.24rem;padding:0 0.16rem 0.3rem;}
 /*评论*/
-#comment{width: 95.2%;margin:0 auto;background: darkgray;}
+#comment{width: 95.2%;margin:0 auto;}
 #comment .comment_con{width: 100%;height: 0.36rem; background: url(../img/talk.png) no-repeat;background-size: 0.36rem 0.36rem;display: flex;}
 #comment .comment_count{font-size: 0.22rem;margin-left: 0.53rem;color: #919191;}
 #comment .count{font-size: 0.2rem;}
 #comment .comment_enter{font-size: 0.2rem;margin-left: 5.1rem;width: .44rem;height: .36rem;text-align: center;line-height: 0.36rem;font-size: 0.5rem;color: #8e8e8e;}
 
 .comment_detail {display: flex;height: .84rem;margin-top: 0.25rem;}
-.comment_detail .author_head{width: .84rem;height: .84rem;border-radius: 100%;background: darkgoldenrod;display: block;margin-right:0.18rem;}
-.comment_detail .author_name{font-size: .24rem;color: #303030;padding-top: 0.16rem;}
-.comment_detail .author_name u{color: #b9b9b9;font-size: 0.22rem;}
+.parent_comment{
+    font-size: .3rem;
+    line-height: .3rem;
+    color: rgb(77,77,77);
+    margin-right: .30rem;
+    margin-top:.16rem;
+    background-color: rgb(236,236,236);
+}
+.comment_message{
+    font-size: .3rem;
+    line-height: .3rem;
+    color: rgb(77,77,77);
+    margin-left:.50rem;
+    margin-right: .30rem;
+    margin-top:.16rem;
+}
+.parent_comment{
+    padding:.1rem;
+}
+.parent_comment_name{
+    font-size: .12rem;
+    color: rgb(77,77,77);
+    margin-bottom: .1rem;
+}
+.parent_comment_content{
+    font-size: .12rem;
+    color:rgb(172,172,172);
+    line-height: .12rem;
+}
 
 
 .article_img{
     width: 100%;
     margin-bottom: .1rem;
 }
-#pic_list_con dl.w_auto{
+#pic_list_con dl.w_auto,dl.w_auto{
     width: auto;
 }
-.author .author_name{
+.author .author_name,.author_name{
     font-size: .24rem;
     color: #303030;
     padding-top: 0.16rem;
 }
-#pic_list_con .author dd.author_position{
+#pic_list_con .author dd.author_position,dd.author_position{
     color: #b9b9b9;
     font-size: 0.22rem;
     height:auto;
