@@ -5,8 +5,7 @@ function clickInput(){
 
     var login=$('#login');
     login.click(function () {
-    	var a=navigator.userAgent;
-    	console.log(a);
+
         var username=$('#username').val();
         var password=$('#password').val();
 		if(username==''){
@@ -24,14 +23,13 @@ function clickInput(){
                     client:'wap'
                 },
                 success:function (msg) {
-                    console.log(msg.code);
-                    switch(msg.status){
-                        case 1://登录成功
-                            window.location.href="../index.html";
-                            break;
-                        case 0://登录失败
-                            alert("请输入正确的账号密码！");
-                            break;
+                    console.log(msg);
+                    if(msg.status==1){
+                        window.location.href="../index.html";
+                    }else if(msg.code==1002){
+                        alert('请输入正确的手机号');
+                    }else if(msg.code==1003){
+                        alert('密码错误，请重新输入');
                     }
                 },
                 error:function (msg) {
