@@ -12,12 +12,19 @@ function click_load(){
 			for(var i=0;i<msg.data.list.length;i++){
                 $('.author_name').html(msg.data.list[i].article_author);
                 $('.pic_name').html(msg.data.list[i].article_title);
-                $('.article_image').attr('src','http://image.shanhecang.com/'+ msg.data.list[i].article_image.filename);
+                //$('.article_image').attr('src','http://image.shanhecang.com/'+ msg.data.list[i].article_image.filename);
                 $('.comment_count').html(msg.data.list[i].article_comment_count);
                 $('.like_count').html(msg.data.list[i].article_liked_count)
 			}
         }
 	});
+
+	$('.pic_list dl').click(function () {
+	    var _this=this;
+        console.log(_this.id);
+        return _this.id;
+    })
+
 	$(".pic_list dl dt").on("click",function(){
 		window.location.href = "find_con.html"
 	});
