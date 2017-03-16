@@ -5,25 +5,8 @@ function clickInput(){
 
     var login=$('#login');
     login.click(function () {
-    	//if(username != "" && password != "" ){
-        //    $.ajax({
-        //        type:'post',
-        //        url:'http://api2.shanhecang.com/login',
-        //        dataType:'JSON',
-        //        data:{
-        //            username:username,
-        //            password:password
-        //        },
-        //        success:function (msg) {
-        //            console.log(msg.username);
-        //        },
-        //        error:function (msg) {
-//
-        //        }
-        //    });
-		//}else{
-    	//	alert("用户名或密码不能为空")
-		//}
+    	var a=navigator.userAgent;
+    	console.log(a);
         var username=$('#username').val();
         var password=$('#password').val();
 		if(username==''){
@@ -37,13 +20,19 @@ function clickInput(){
                 dataType:'JSON',
                 data:{
                     username:username,
-                    password:password
+                    password:password,
+                    client:'wap'
                 },
                 success:function (msg) {
-                    if(msg.status=='1'){
-                    	alert('登录成功');
-
-					}
+                    console.log(msg.code);
+                    switch(msg.status){
+                        case 1://登录成功
+                            window.location.href="../index.html";
+                            break;
+                        case 0://登录失败
+                            alert("请输入正确的账号密码！");
+                            break;
+                    }
                 },
                 error:function (msg) {
                 }

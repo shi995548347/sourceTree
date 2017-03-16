@@ -6,8 +6,12 @@ header .con{height: 100%; line-height: .86rem;width: 100%;padding-left:35%;}
 
 #form_con{width: 100%;height: 100%;background: #f8f8f8;text-align: center;}
 .input_common{border: none;outline: none; width: 6.1rem;height: 1rem;border-radius: 10px;font-size: 0.26rem;background: #ececec;padding-left: 0.7rem;}
-#form_con form>input:nth-child(1){background: url(../img/login_phone@2x.png) no-repeat 0.2rem #ececec;background-size:0.34rem 0.34rem; }
+#form_con form>input:nth-child(1)，#form_con form>input:nth-child(3){background: url(../img/login_phone@2x.png) no-repeat 0.2rem #ececec;background-size:0.34rem 0.34rem; }
 #checkCode{width: 3.7rem;background: url(../img/login_code@2x.png) no-repeat 0.2rem #ececec;background-size:0.34rem 0.34rem;}
 .set_pwd{background: url(../img/login_password@2x.png) no-repeat 0.2rem #ececec;background-size:0.34rem 0.34rem;}
 #btnSendCode{width: 2rem;height: 1rem;color: #57f472;border: 1px solid #57f472;background: none;border-radius: .2rem;outline: none;}
 #form_con .reg_btn{width: 6.7rem;background: #57f472;text-align: center;padding: 0;color: #fff;}
+
+#captcha{
+    width: 4rem;
+}
