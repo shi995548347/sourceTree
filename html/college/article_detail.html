@@ -15,10 +15,8 @@
 	<body>
 		<div id="pic_list_con">
 			<dl>
-				<dt>
-					<img class="article_img"/>
-					<img class="article_img"/>
-					<img class="article_img"/>
+				<dt class="article_img">
+
 					<a class="back" href="find_index.html">‹</a>
 					<!--<div class="back">‹</div>-->
 				</dt>
@@ -40,7 +38,7 @@
 		<p class="des_words">
 			关于此次分享的内容，作者可以留下描述文字，用这种排版方式来增强文字描述板块的板块结构感。
 		</p>
-		<div id="comment">
+		<!--div id="comment">
 			<div class="comment_con">
 				<div class="comment_count">
 					评论(<span class="count">421</span>)
@@ -64,11 +62,36 @@
 				</div>
 			</div>
 
-		</div>
+		</div-->
 		<script src="../../js/rem.js" type="text/javascript" charset="utf-8"></script>
-		<script type="text/javascript" src="../../js/article_detail.js">
+		<script type="text/javascript" src="../../js/article_detail.js"></script>
+		<script type="text/javascript">
+            var article_content=$('.des_words');
+            var user_image=$('.author_head');
+            var article_comment_count=$('.comment_count');
+            var article_liked_count=$('.like_count');
+            var article_img=$('.article_img');
 
+            $.ajax({
+                type: "get",
+                dataType: "JSONP",
+                url: 'http://api2.shanhecang.com/article_detail',
+                data:{article_id:'37'},
+                success:function (msg) {
+                    console.log(msg.data.user_image);
+                    article_content.html(msg.data.article_content);
+                    user_image.attr('src','http://image.shanhecang.com/' + msg.data.user_image);
+                    article_comment_count.html(msg.data.article_comment_count);
+                    article_liked_count.html(msg.data.article_liked_count);
+
+                    for(var i=0;i<msg.data.article_image_all.length;i++){
+                        var img=new Image();
+                        img.src='http://image.shanhecang.com/'+ msg.data.article_image_all[i].filename;
+                        $('.back').before(img);
+                        //article_img.attr('src','http://image.shanhecang.com/'+ msg.data.article_image_all[i].filename)
+                    }
+                }
+            });
 		</script>
-	
 	</body>
 </html>
