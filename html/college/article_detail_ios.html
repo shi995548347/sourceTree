@@ -28,16 +28,22 @@
 		</script>
 		<script type="text/javascript">
 			$(function(){
+			    //window.location.search="id=" + id;
+				//获取点击的文章的ID
+                window.location.search="?id=";
+                var url_suffix=window.location.search;
+                var id=url_suffix.replace(/[^0-9]+/ig,"");
+                alert(id);
+
+
 				var gUrl = "http://api2.shanhecang.com/";
 				var imgUrl = "http://image.shanhecang.com/";
 				$.ajax({  
 		            type: "get",
 		            dataType: "json",
 		            url: gUrl+'article_detail',
-		            data:{article_id:41},
-		            success: function (msg){ 
-		            	console.log( msg );
-		            	
+		            data:{article_id:id},
+		            success: function (msg){
 		            	$(".article_list").html = "";
 		            	var str="";
 		            	for(var i=0;i<msg.data.article_image_all.length;i++){
@@ -47,9 +53,13 @@
 		            	}
 						$(".article_list").append(str);
 		            }
-		        })
-				
-			})
+		        });
+
+
+			});
+
+
+
 		</script>
 	</body>
 </html>
