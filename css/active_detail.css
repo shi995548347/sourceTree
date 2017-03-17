@@ -1,0 +1,21 @@
+.active_top,.link_people,.active_adr{
+    display: flex;
+    flex-flow: row;
+}
+.active_top{
+    margin:.44rem 0 .44rem .2rem;
+}
+.active_title{
+    font-size: .36rem;
+    color: rgb(77,77,77);
+}
+.active_quota{
+    margin-left: auto;
+    font-size: .24rem;
+    color: rgb(172,172,172);
+}
+.link_people,.active_adr{
+    font-size: .23rem;
+    color: rgb(172,172,172);
+    margin:.2rem 0 .2rem .2rem;
+}

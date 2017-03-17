@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <title>活动详情</title>
+    <link rel="stylesheet" type="text/css" href="../../css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="../../css/active_detail.css"/>
+    <script src="../../js/jQuery/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <div class="contain">
+        <div class="active_top">
+            <div class="active_title">活动1</div>
+            <div class="active_quota">
+                <dl>
+                    <dt>活动限额：</dt>
+                    <dd class="activity_person_limit">1/20</dd>
+                </dl>
+            </div><!--active_quota end-->
+        </div><!--active_top end-->
+        <div class="link_people">
+            <p>联系人：</p>
+            <p class="active_people">123</p>
+            <img>
+        </div><!--link_people end-->
+        <div class="active_adr">
+            <p>活动地址：</p>
+            <p class="active_address">123</p>
+            <img>
+        </div><!--active_adr end-->
+        <div class="active_detail"></div>
+    </div>
+    <script src="../../js/rem.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(function () {
+            window.history.pushState(null, null, "?id=20");
+            var url_suffix=window.location.search;
+            var id=url_suffix.replace(/[^0-9]+/ig,"");
+
+            var active_title=$('.active_title');
+            var active_people=$('.active_people');
+            var active_address=$('.active_address');
+            var activity_person_limit=$('.activity_person_limit');
+            var active_detail=$('.active_detail');
+
+            $.ajax({
+                type:'get',
+                url:'http://api2.shanhecang.com/promotion_detail',
+                dataType:'jsonp',
+                data:{activity_id:id},
+                success:function (msg) {
+                    console.log(msg);
+                    active_title.html(msg.data.activity_title);
+                    active_people.html(msg.data.activity_creater);
+                    active_address.html(msg.data.activity_address);
+                    activity_person_limit.html(msg.data.activity_person_limit);
+                }
+            });
+
+            $.ajax({
+                type: "get",
+                dataType: "json",
+                url: 'http://api2.shanhecang.com/article_detail',
+                data:{article_id:id},
+                success: function (msg){
+                    console.log(msg);
+                    var str="";
+                    for(var i=0;i<msg.data.article_image_all.length;i++){
+                        str +='<dl><dt>'+
+                            '<img src="'+imgUrl+msg.data.article_image_all[i].filename+'"/></dt>'+
+                            '<dd>'+msg.data.article_content+'</dd></dl>'
+                    }
+                    active_detail.append(str);
+                }
+            });
+
+        })
+    </script>
+</body>
+</html>
