@@ -48,6 +48,10 @@
 </script>
 <script type="text/javascript">
     $(function(){
+        catchActiveDetail();
+
+    });
+    function catchActiveDetail() {
         //获取点击的文章的ID
         window.history.pushState(null, null, "?id=41");
         var url_suffix=window.location.search;
@@ -61,6 +65,7 @@
             dataType: "json",
             url: gUrl+'article_detail',
             data:{article_id:id},
+            async:false,
             success: function (msg){
                 $(".active_detail").html = "";
                 var str="";
@@ -70,11 +75,10 @@
                         '<dd>'+msg.data.article_content+'</dd></dl>'
                 }
                 $(".active_detail").append(str);
+
             }
         });
-
-
-    });
+    }
 </script>
 </body>
 </html>
