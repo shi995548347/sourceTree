@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f64657d9-ac55-4bc2-87e5-12046a4d035c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/active/active_detail_ios.html" afterPath="$PROJECT_DIR$/html/active/active_detail_ios.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/college/article_ios.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/college/article_detail_ios.html" afterPath="$PROJECT_DIR$/html/college/article_detail_ios.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,11 +22,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file leaf-file-name="active_detail.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/active/active_detail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="42" column="56" lean-forward="true" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+              <folding>
+                <marker date="1489813358454" expanded="true" signature="4607:4619" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="article_detail_ios.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/college/article_detail_ios.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+            <state relative-caret-position="513">
+              <caret line="46" column="95" lean-forward="true" selection-start-line="46" selection-start-column="95" selection-end-line="46" selection-end-column="95" />
               <folding>
                 <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -33,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="active_detail_ios.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/html/active/active_detail_ios.html">
+      <file leaf-file-name="article_ios.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/html/college/article_ios.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+            <state relative-caret-position="478">
+              <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -109,8 +122,9 @@
         <option value="$PROJECT_DIR$/html/college/article_detail.html" />
         <option value="$PROJECT_DIR$/css/active_detail.css" />
         <option value="$PROJECT_DIR$/html/active/active_detail.html" />
-        <option value="$PROJECT_DIR$/html/college/article_detail_ios.html" />
         <option value="$PROJECT_DIR$/html/active/active_detail_ios.html" />
+        <option value="$PROJECT_DIR$/html/college/article_detail_ios.html" />
+        <option value="$PROJECT_DIR$/html/college/article_ios.html" />
       </list>
     </option>
   </component>
@@ -325,12 +339,12 @@
       <workItem from="1489537079725" duration="18710000" />
       <workItem from="1489623722926" duration="34061000" />
       <workItem from="1489710788950" duration="25736000" />
-      <workItem from="1489797701076" duration="22957000" />
+      <workItem from="1489797701076" duration="27087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102981000" />
+    <option name="totallyTimeSpent" value="107111000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
@@ -612,16 +626,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/active/active_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="94" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="120" selection-end-column="7" />
-          <folding>
-            <marker date="1489813358454" expanded="true" signature="4607:4619" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/article_detail.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -651,21 +655,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html/active/active_detail_ios.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/college/article_detail_ios.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        <state relative-caret-position="513">
+          <caret line="46" column="95" lean-forward="true" selection-start-line="46" selection-start-column="95" selection-end-line="46" selection-end-column="95" />
           <folding>
             <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html/active/active_detail_ios.html">
+    <entry file="file://$PROJECT_DIR$/html/college/article_ios.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        <state relative-caret-position="478">
+          <caret line="51" column="20" lean-forward="false" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/active/active_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="42" column="56" lean-forward="true" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+          <folding>
+            <marker date="1489813358454" expanded="true" signature="4607:4619" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
