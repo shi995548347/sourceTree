@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var  createIframe=(function(){
+			  var iframe;
+			    return function(){
+			        if(iframe){
+			            return iframe;
+			        }else{
+			            iframe = document.createElement('iframe');
+			            iframe.style.display = 'none';
+			            document.body.appendChild(iframe);
+			            return iframe;      
+			        }
+			    }
+			})()
+			var baseScheme = "shanhecang://";
+			var isIOS=function(){
+				var u = navigator.userAgent, app = navigator.appVersion;
+				var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/);
+			}
+			var openApp=function(){
+			    if(isIos()){
+			        //判断是否是ios,具体的判断函数自行百度
+			        window.location.href = baseScheme;
+			        var loadDateTime = Date.now();
+			        setTimeout(function () {
+			            var timeOutDateTime = Date.now();
+			            if (timeOutDateTime - loadDateTime < 1000) {
+			                window.location.href = "https://itunes.apple.com/cn/app/山禾仓/id1190027907?mt=8";
+//			                window.location.href = "你的下载页面";
+			            }
+			        }, 25);
+			    }
+			}
+			openApp();
+		</script>
+	</body>
+</html>
