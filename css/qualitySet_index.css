@@ -1,0 +1,95 @@
+.qualitySet_top img{
+    width: 100%;
+    height: 6rem;
+    background-color: #ddd;
+    border:none;
+}
+/*qualitySet_list*/
+.qualitySet_list{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+}
+.life_school,.activity_experience,.green_life,.hand_sharing{
+    display: flex;
+    flex-flow: column;
+    color: #acacac;
+    font-size: .24rem;
+    width: 1.876rem;
+    justify-content: center;
+    align-items: center;
+}
+.life_school img,.activity_experience img,.green_life img,.hand_sharing img{
+    width: .6rem;
+    height: .6rem;
+    margin-bottom: .12rem;
+}
+/*go_life_school*/
+.exhibition-list{
+    position: relative;
+}
+.exhibition-list img{
+    width: 100%;
+    height: 4rem;
+    background-color: #ddd;
+}
+.exhibition-list_text{
+    position: absolute;
+    top:1.4rem;
+    width: 5.8rem;
+    height: 1.2rem;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    margin-left: .84rem;
+    border-radius:4px;
+    text-align: center;
+    padding-top: .24rem;
+}
+.exhibition-list_title{
+    font-size: .36rem;
+}
+.exhibition-list_engTitle{
+    font-size: .24rem;
+}
+/*go_activity_experience*/
+.go_activity_experience{
+    height: 4.8rem;
+}
+.swiper-container {
+    width: 100%;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+}
+.swiper-container a{
+    display: block;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 3.6rem;
+    height: 4rem;
+    position: relative;
+}
+.go_activity_experience_text{
+    position: absolute;
+    top:1.5rem;
+    left: .2rem;
+    width: 3.2rem;
+    height: 1rem;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    padding-top:.24rem;
+}
+.go_activity_experience_title{
+    font-size: .24rem;
+}
+.go_activity_experience_engTitle{
+    font-size: .2rem;
+}
+.go_hand_sharing{
+    margin:.1rem 0;
+}

@@ -45,38 +45,6 @@ $(function () {
 
     });
 
-    //$('#determine').click(function(){
-    //    var captcha = $("#captcha").val();
-    //    var password = $("#new_pwd").val();
-    //    var phone = $("#phone").val();
-//
-    //    $.ajax({
-    //        type: "post",
-    //        url: 'http://api2.shanhecang.com/passwordf',
-    //        data: {
-    //            phone: phone,
-    //            captcha:captcha,
-    //            type: '3',
-    //            client:'wap',
-    //            password:password
-    //        },
-    //        success: function (msg) {
-    //            console.log(msg);
-    //            //if(msg.status==1){
-    //            //    console.log(msg);
-    //            //    window.location.href="login.html";
-    //            //}else if(msg.code==1001){
-    //            //    alert('手机号输入错误');
-    //            //}else if(msg.code==1006){
-    //            //    alert('验证码过期，请重新获取');
-    //            //}
-    //        },
-    //        error: function (data) {
-    //            //console.log(data);
-    //        }
-    //    });
-//
-    //});
 
     $('#determine').click(function(){
         var captcha = $("#captcha").val();
@@ -84,7 +52,7 @@ $(function () {
         var phone = $("#phone").val();
         $.ajax({
             type: "post",
-            dataType: "JSON",
+            //dataType: "JSON",
             url: 'http://api2.shanhecang.com/passwordf',
             data: {
                 phone: phone,
@@ -93,21 +61,25 @@ $(function () {
                 password:password,
                 captcha:captcha
             },
-            success: function (msg) {
-                console.log(msg);
-                if(msg.status==1){
-                    window.location.href="../index.html";
-                }else if(msg.code==1001){
-                    alert('手机号输入错误');
-                }else if(msg.code==1003){
-                    alert('用户已存在');
-                }else if(msg.code==1002){
-                    alert('验证码错误，请重新获取');
-                }
+            error: function (msg) {
+
             },
-            error: function (XMLHttpRequest, textStatus, errorThrown,msg) {
-                console.log(msg)
+            success: function (data){
+                console.log(data);
+                window.location.href='../index.html';
+                if(data.status==1){
+                    window.location.href="../index.html";
+                }else if(data.code==1001){
+                    alert('手机号输入错误');
+                }else if(data.code==1003){
+                    alert('用户已存在');
+                }else if(data.code==1005){
+                    alert('验证码错误，请重新获取');
+                }else if(data.code==1004){
+                    alert('手机号码尚未注册，请先注册');
+                }
             }
+
         });
 
     });
