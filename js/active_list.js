@@ -22,10 +22,8 @@ $(function () {
                 str += '<a href="active_sheet.html?id="'+msg.data.list[i].activity_id+' class="swiper-slide" style="background:#ddd"><div class="active_list_text"><p class="active_list_title">'+msg.data.list[i].activity_title+'</p><p class="active_list_engTitle">截止日期<span class="active_list_time">'+formatDate(activity_data)+'</span></p></div></a>';
             }
             $('.swiper-wrapper').append(str);
-
         }
     });
-
     var swiper = new Swiper('.swiper-container', {
         effect: 'coverflow',
         grabCursor: true,

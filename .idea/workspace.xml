@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f64657d9-ac55-4bc2-87e5-12046a4d035c" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/quality_set/life_school.html" afterPath="$PROJECT_DIR$/html/quality_set/life_school.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/life_school.js" afterPath="$PROJECT_DIR$/js/life_school.js" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/life_school.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/html/quality_set/life_school.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/life_school.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> fbbf268ad26ea6a4150db4733800c8e1c2d9f132
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,26 +28,46 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+<<<<<<< HEAD
       <file leaf-file-name="quality_set_index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/quality_set/quality_set_index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="511">
               <caret line="58" column="10" lean-forward="true" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+=======
+      <file leaf-file-name="life_school.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/quality_set/life_school.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+>>>>>>> fbbf268ad26ea6a4150db4733800c8e1c2d9f132
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="life_school.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/html/quality_set/life_school.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="268">
               <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding />
+=======
+      <file leaf-file-name="life_school.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/life_school.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#49#0" expanded="false" />
+              </folding>
+>>>>>>> fbbf268ad26ea6a4150db4733800c8e1c2d9f132
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="life_school.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/life_school.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,6 +76,14 @@
               <folding>
                 <element signature="e#0#49#0" expanded="false" />
               </folding>
+=======
+      <file leaf-file-name="life_school.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/life_school.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+              <folding />
+>>>>>>> fbbf268ad26ea6a4150db4733800c8e1c2d9f132
             </state>
           </provider>
         </entry>
@@ -97,6 +132,7 @@
         <option value="$PROJECT_DIR$/html/login/forget_pwd.html" />
         <option value="$PROJECT_DIR$/js/forget_pwd.js" />
         <option value="$PROJECT_DIR$/css/life_school.css" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/css/active_list.css" />
         <option value="$PROJECT_DIR$/html/active/active_detail_ios.html" />
         <option value="F:/html5-3d-gallery-animation/index.html" />
@@ -113,6 +149,10 @@
         <option value="$PROJECT_DIR$/html/quality_set/quality_set_index.html" />
         <option value="$PROJECT_DIR$/js/life_school.js" />
         <option value="$PROJECT_DIR$/html/quality_set/life_school.html" />
+=======
+        <option value="$PROJECT_DIR$/html/quality_set/life_school.html" />
+        <option value="$PROJECT_DIR$/js/life_school.js" />
+>>>>>>> fbbf268ad26ea6a4150db4733800c8e1c2d9f132
       </list>
     </option>
   </component>
@@ -201,6 +241,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+<<<<<<< HEAD
+=======
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shc_webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shc_webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+>>>>>>> fbbf268ad26ea6a4150db4733800c8e1c2d9f132
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -296,13 +353,21 @@
       <workItem from="1489623722926" duration="34061000" />
       <workItem from="1489710788950" duration="25736000" />
       <workItem from="1489797701076" duration="27495000" />
+<<<<<<< HEAD
       <workItem from="1489969699032" duration="23704000" />
       <workItem from="1490056479535" duration="22585000" />
+=======
+      <workItem from="1489969699032" duration="16644000" />
+>>>>>>> fbbf268ad26ea6a4150db4733800c8e1c2d9f132
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="153808000" />
+=======
+    <option name="totallyTimeSpent" value="124163000" />
+>>>>>>> fbbf268ad26ea6a4150db4733800c8e1c2d9f132
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
@@ -355,6 +420,98 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/js/article_detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/active/active_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1489813358454" expanded="true" signature="4607:4619" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/active_detail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/college/article_detail_ios.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="60" column="19" lean-forward="true" selection-start-line="45" selection-start-column="16" selection-end-line="60" selection-end-column="19" />
+          <folding>
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/login/forget_pwd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="65" lean-forward="false" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="78" column="7" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="78" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/forget_pwd.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/college/article_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1566">
+          <caret line="58" column="32" lean-forward="false" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="46" />
+          <folding>
+            <element signature="n#dl#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#1417#2058#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/article_detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="49" lean-forward="false" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/article_detail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> fbbf268ad26ea6a4150db4733800c8e1c2d9f132
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -540,6 +697,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/css/life_school.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -570,20 +728,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2324">
           <caret line="473" column="19" lean-forward="true" selection-start-line="473" selection-start-column="19" selection-end-line="473" selection-end-column="19" />
+=======
+    <entry file="file://$PROJECT_DIR$/css/qualitySet_index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="54" column="1" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="54" selection-end-column="1" />
+>>>>>>> fbbf268ad26ea6a4150db4733800c8e1c2d9f132
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://F:/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/html/quality_set/quality_set_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="78" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#2;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#3;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#4;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#5;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+>>>>>>> fbbf268ad26ea6a4150db4733800c8e1c2d9f132
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/active/active.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="293">
           <caret line="45" column="49" lean-forward="true" selection-start-line="45" selection-start-column="49" selection-end-line="45" selection-end-column="49" />
           <folding />
@@ -614,12 +794,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="505">
           <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+=======
+        <state relative-caret-position="667">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+>>>>>>> fbbf268ad26ea6a4150db4733800c8e1c2d9f132
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/html/active/active_sheet.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="511">
           <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
           <folding />
@@ -638,12 +823,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
           <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+=======
+        <state relative-caret-position="27">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="22" selection-end-column="3" />
+>>>>>>> fbbf268ad26ea6a4150db4733800c8e1c2d9f132
           <folding>
             <element signature="e#0#49#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/html/active/active_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -670,10 +860,19 @@
           <folding>
             <element signature="e#0#49#0" expanded="false" />
             <marker date="1490082239199" expanded="true" signature="1851:1866" ph="..." />
+=======
+    <entry file="file://$PROJECT_DIR$/js/life_school.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+>>>>>>> fbbf268ad26ea6a4150db4733800c8e1c2d9f132
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/css/qualitySet_index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
@@ -697,6 +896,13 @@
           <folding>
             <element signature="e#0#49#0" expanded="false" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/html/quality_set/life_school.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <folding />
+>>>>>>> fbbf268ad26ea6a4150db4733800c8e1c2d9f132
         </state>
       </provider>
     </entry>

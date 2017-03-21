@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>文章详情</title>
+		<style type="text/css">
+			*{padding: 0;margin: 0;}
+			html,body{width: 100%;}
+			.article_list{width: 100%;overflow: hidden;}
+			dl{width: 100%;}
+			dt{width: 100%;height: 7.7rem;background: darkblue;}
+			dd{width: 100%;overflow: hidden;font-size: 0.20rem;margin: 0.2rem auto;width: 95%;}
+		</style>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	</head>
+	<body>
+		<div class="article_list"></div>
+		
+		<script type="text/javascript">
+			//控制rem的值
+			document.documentElement.style.fontSize=
+			document.documentElement.clientWidth/7.5+'px';
+			//通过resize事件 监听当前窗口大小变化
+			window.addEventListener("resize",function(){
+				document.documentElement.style.fontSize=
+				document.documentElement.clientWidth/7.5+'px';	
+			})
+		</script>
+		<script type="text/javascript">
+			$(function(){
+				var gUrl = "http://api2.shanhecang.com/";
+				var imgUrl = "http://image.shanhecang.com/";
+				$.ajax({  
+		            type: "get",
+		            dataType: "json",
+		            url: gUrl+'article_detail',
+		            data:{article_id:41},
+		            success: function (msg){ 
+		            	console.log( msg );
+		            	
+		            	$(".article_list").html = "";
+		            	var str="";
+		            	for(var i=0;i<msg.data.article_image_all.length;i++){
+		            		str +='<dl><dt>'+
+								  '<img src="'+imgUrl+msg.data.article_image_all[i].filename+'"/></dt>'+
+								  '<dd>'+msg.data.article_content+'</dd></dl>'
+		            	}
+						$(".article_list").append(str);
+		            }
+		        })
+				
+			})
+		</script>
+	</body>
+</html>
