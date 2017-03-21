@@ -2,6 +2,10 @@
  * Created by Administrator on 2017/3/21.
  */
 $(function () {
+    //window.history.pushState(null, null, "?id= ");
+    var url_suffix=window.location.search;
+    var id=url_suffix.replace(/[^0-9]+/ig,"");
+
     function formatDate(now) {
         var year = now.getFullYear();
         var month = now.getMonth() + 1;
@@ -13,7 +17,7 @@ $(function () {
     $.ajax({
         type:'get',
         dataType:'jsonp',
-        data:{activity_id:20},
+        data:{activity_id:id},
         url:'http://api2.shanhecang.com/promotion_detail',
         success:function (msg) {
             console.log(msg);
