@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f64657d9-ac55-4bc2-87e5-12046a4d035c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/qualitySet_index.css" afterPath="$PROJECT_DIR$/css/qualitySet_index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/quality_set/quality_set_index.html" afterPath="$PROJECT_DIR$/html/quality_set/quality_set_index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/qualitySet_index.js" afterPath="$PROJECT_DIR$/js/qualitySet_index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/quality_set/life_school.html" afterPath="$PROJECT_DIR$/html/quality_set/life_school.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/life_school.js" afterPath="$PROJECT_DIR$/js/life_school.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,48 +21,34 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="quality_set_index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="quality_set_index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html/quality_set/quality_set_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            <state relative-caret-position="511">
+              <caret line="58" column="10" lean-forward="true" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="active_list.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/active_list.js">
+      <file leaf-file-name="life_school.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/html/quality_set/life_school.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="43" column="2" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="43" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#49#0" expanded="false" />
-                <marker date="1490080322567" expanded="true" signature="865:880" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qualitySet_index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/qualitySet_index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="50" column="55" lean-forward="false" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#49#0" expanded="false" />
-                <marker date="1490082239199" expanded="true" signature="1851:1866" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="qualitySet_index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/qualitySet_index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="90" column="22" lean-forward="true" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+            <state relative-caret-position="268">
+              <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="life_school.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/life_school.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+              <folding>
+                <element signature="e#0#49#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,8 +97,6 @@
         <option value="$PROJECT_DIR$/html/login/forget_pwd.html" />
         <option value="$PROJECT_DIR$/js/forget_pwd.js" />
         <option value="$PROJECT_DIR$/css/life_school.css" />
-        <option value="$PROJECT_DIR$/html/quality_set/life_school.html" />
-        <option value="$PROJECT_DIR$/js/life_school.js" />
         <option value="$PROJECT_DIR$/css/active_list.css" />
         <option value="$PROJECT_DIR$/html/active/active_detail_ios.html" />
         <option value="F:/html5-3d-gallery-animation/index.html" />
@@ -129,6 +111,8 @@
         <option value="$PROJECT_DIR$/css/qualitySet_index.css" />
         <option value="$PROJECT_DIR$/js/qualitySet_index.js" />
         <option value="$PROJECT_DIR$/html/quality_set/quality_set_index.html" />
+        <option value="$PROJECT_DIR$/js/life_school.js" />
+        <option value="$PROJECT_DIR$/html/quality_set/life_school.html" />
       </list>
     </option>
   </component>
@@ -214,38 +198,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="quality_set" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shc_webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shc_webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="active" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shc_webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shc_webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,12 +297,12 @@
       <workItem from="1489710788950" duration="25736000" />
       <workItem from="1489797701076" duration="27495000" />
       <workItem from="1489969699032" duration="23704000" />
-      <workItem from="1490056479535" duration="20787000" />
+      <workItem from="1490056479535" duration="22585000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152010000" />
+    <option name="totallyTimeSpent" value="153808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
@@ -588,27 +540,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/life_school.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html/quality_set/life_school.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="36" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/life_school.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -727,14 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/qualitySet_index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="90" column="22" lean-forward="true" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/qualitySet_index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
@@ -746,10 +674,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/qualitySet_index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="90" column="22" lean-forward="true" selection-start-line="90" selection-start-column="22" selection-end-line="90" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/html/quality_set/quality_set_index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="511">
+          <caret line="58" column="10" lean-forward="true" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/life_school.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#49#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/quality_set/life_school.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding />
         </state>
       </provider>
