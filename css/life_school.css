@@ -1,0 +1,44 @@
+/*life_school_top*/
+.life_school_top{
+    position: relative;
+    height: 1.28rem;
+}
+.life_school_top_img{
+    position: absolute;
+    top:.5rem;
+    left: .25rem;
+    width: .14rem;
+}
+.life_school_top p{
+    font-size: .3rem;
+    text-align: center;
+    color: #4d4d4d;
+    line-height: 1.28rem;
+}
+
+.exhibition-list{
+    position: relative;
+}
+.exhibition-list img{
+    width: 100%;
+    height: 4rem;
+    background-color: #ddd;
+}
+.exhibition-list_text{
+    position: absolute;
+    top:1.4rem;
+    width: 5.8rem;
+    height: 1.2rem;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    margin-left: .84rem;
+    border-radius:4px;
+    text-align: center;
+    padding-top: .24rem;
+}
+.exhibition-list_title{
+    font-size: .36rem;
+}
+.exhibition-list_engTitle{
+    font-size: .24rem;
+}

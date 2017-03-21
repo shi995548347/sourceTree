@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html ng-app="app">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>商品详情</title>
+		<link rel="stylesheet" type="text/css" href="../../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/goods_detail.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/swiper-3.4.2.min.css"/>
+		<script src="../../js/angular.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../js/jQuery/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../js/jQuery/swiper-3.4.2.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="http://web.cdn.openinstall.io/api/javascripts/sdk.min.js"></script>
+	</head>
+	<body ng-controller="goods_details" ng-cloak>
+		<div class="commodity_img">
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide" ng-repeat = "item in goods_desc.data.goods.goods_desc_img">
+			        	<img src="{{item.desc_img}}"/>
+			        </div>
+			    </div>
+			    <div class="swiper-pagination"></div>
+			</div>
+			<div class="commodity_img_nav">
+				<img class="back" src="../../img/back@2x.png"/>
+				<div>
+					<img onclick="open_app()" class="shop_car" src="../../img/cart2@2x.png"/>
+					<img class="commodity_share" src="../../img/rectangle9@2x.png"/>
+				</div>
+			</div>
+			<div class="commodity_content">
+				<div class="commodity_name">
+					<p>{{goods_desc.data.goods.goods_name}}</p>
+					<p>{{goods_desc.data.goods.goods_intro}}</p>
+					<span>
+						<img src="../../img/login_password@2x.png"/>
+						<i>收藏</i>
+					</span>
+				</div>
+				<div>
+					<div class="commodity_prise">
+						￥{{goods_desc.data.goods.shop_price}}
+					</div>
+					<div class="commodity_saled">
+						已售 {{goods_desc.data.goods.goods_sell_num}}
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="assure">
+			<div ng-repeat = "i in goods_desc.data.goods.goods_special_attribute">
+				<img src="../../img/login_password@2x.png"/>
+				{{i.special_attribute}}
+			</div>
+		</div>
+		<div class="commodity_details">
+			<p>
+				<img src="../../img/xiangq@2x.png"/>商品详情
+			</p>
+			<div class="commodity_imgb" ng-repeat = "i in goods_desc.data.goods.goods_photo">
+				<img src="{{i.photo_image}}"/>
+			</div>
+		</div>
+		<div class="join_car">
+			<div>
+				<img src="../../img/rectangle54@2x.png"/>
+				<span>
+					加入购物车 │
+				</span>
+				<span>
+					￥555.55
+				</span>
+			</div>
+			<div class="buy_btn" onclick="open_app()">
+				立即购买
+			</div>
+			
+		</div>
+		
+		<script src="../../js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../../js/goBack.js" type="text/javascript" charset="utf-8"></script>
+		<script> 
+			var mySwiper = new Swiper('.swiper-container',{
+				pagination : '.swiper-pagination',
+				observer:true,//修改swiper自己或子元素时，自动初始化swiper
+				observeParents:true,//修改swiper的父元素时，自动初始化swiper
+			})
+			var goods_id = GetQueryString("goods_id");
+			var app = angular.module("app",[]);
+			var goods_detail_url = "http://api2.shanhecang.com/index.php/goods_detail?good_id="+goods_id;
+			app.controller("goods_details",function($scope,$http){
+				$http.get(goods_detail_url).success(function(msg){
+					console.log(msg);
+					$scope.goods_desc = msg;
+				}).error(function(){
+					alert("error")
+				})
+			})
+			
+		</script>
+	</body>
+</html>
