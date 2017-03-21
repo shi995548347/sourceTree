@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta content="black" name="apple-mobile-web-app-status-bar-style">
+		<meta content="telephone=no" name="format-detection">
+		<meta content="email=no" name="format-detection">
+		<title>内容详情</title>
+		<link rel="stylesheet" type="text/css" href="../../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../../css/article_detail.css"/>
+		<script src="../../js/jQuery/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="pic_list_con">
+			<dl>
+				<dt class="article_img">
+
+					<a class="back" href="find_index.html">‹</a>
+					<!--<div class="back">‹</div>-->
+				</dt>
+				<dd>
+					<div class="author">
+						<img class="author_head" />
+						<dl class="w_auto">
+							<dt class="author_name">作者名字</dt>
+							<dd class="author_position">上海/空间设计师</dd>
+						</dl>
+					</div>
+					<div class="comment_like">
+						<div class="comment"><img src="../../img/comment.png"/><i class="comment_count">421</i></div>
+						<div class="like"><img src="../../img/like.png"/><i class="like_count">2520</i></div>
+					</div>
+				</dd>
+			</dl>
+		</div>
+		<p class="des_words">
+			关于此次分享的内容，作者可以留下描述文字，用这种排版方式来增强文字描述板块的板块结构感。
+		</p>
+		<!--div id="comment">
+			<div class="comment_con">
+				<div class="comment_count">
+					评论(<span class="count">421</span>)
+				</div>
+			</div>
+			<div class="comment_box">
+				<div class="comment_detail">
+					<img class="comment_image" />
+					<dl class="w_auto">
+						<dt class="author_name">作者名字</dt>
+						<dd class="author_position">2017-3-15 09:12:23</dd>
+					</dl>
+					<div></div>
+				</div>
+				<div class="comment_message">
+					<div class="parent_comment">
+						<p class="parent_comment_name"></p>
+						<p class="parent_comment_content"></p>
+					</div>
+					<div class="reply_comment"></div>
+				</div>
+			</div>
+
+		</div-->
+		<script src="../../js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" src="../../js/article_detail.js"></script>
+		<script type="text/javascript">
+            var article_content=$('.des_words');
+            var user_image=$('.author_head');
+            var article_comment_count=$('.comment_count');
+            var article_liked_count=$('.like_count');
+            var article_img=$('.article_img');
+
+            $.ajax({
+                type: "get",
+                dataType: "JSONP",
+                url: 'http://api2.shanhecang.com/article_detail',
+                data:{article_id:'37'},
+                success:function (msg) {
+                    console.log(msg.data.user_image);
+                    article_content.html(msg.data.article_content);
+                    user_image.attr('src','http://image.shanhecang.com/' + msg.data.user_image);
+                    article_comment_count.html(msg.data.article_comment_count);
+                    article_liked_count.html(msg.data.article_liked_count);
+
+                    for(var i=0;i<msg.data.article_image_all.length;i++){
+                        var img=new Image();
+                        img.src='http://image.shanhecang.com/'+ msg.data.article_image_all[i].filename;
+                        $('.back').before(img);
+                        //article_img.attr('src','http://image.shanhecang.com/'+ msg.data.article_image_all[i].filename)
+                    }
+                }
+            });
+		</script>
+	</body>
+</html>

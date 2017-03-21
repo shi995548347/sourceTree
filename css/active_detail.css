@@ -1,0 +1,68 @@
+.active_top,.link_people,.active_adr{
+    display: flex;
+    flex-flow: row;
+}
+.active_top{
+    margin:.44rem 0 .44rem .2rem;
+}
+.active_title{
+    font-size: .36rem;
+    color: rgb(77,77,77);
+}
+.active_quota{
+    margin-left: auto;
+    font-size: .24rem;
+    color: rgb(172,172,172);
+}
+.link_people,.active_adr{
+    font-size: .23rem;
+    color: rgb(172,172,172);
+    margin:.2rem 0 .2rem .2rem;
+}
+.active_detail_title{
+    font-size: .3rem;
+    text-align: center;
+    margin:1rem auto .4rem auto;
+    color: #333;
+    border-bottom: 1px solid #333;
+    border-top:1px solid #333;
+    position: relative;
+    width: 1.2rem;
+    padding:.1rem 0;
+}
+
+
+.sign_up_box{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: .4rem;
+}
+.sign_up{
+    width: 2rem;
+    height: .8rem;
+    line-height: .8rem;
+    background-color: #333;
+    color: #fff;
+    font-size: .3rem;
+    text-align: center;
+    border-radius: 4px;
+}
+.active_end{
+    width: 2rem;
+    height: .8rem;
+    line-height: .8rem;
+    background-color: #999;
+    color: #fff;
+    font-size: .3rem;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: .2rem;
+    display: none;
+}
+.activity_end{
+    font-size: .24rem;
+    color: rgb(172,172,172);
+    text-align: center;
+}
