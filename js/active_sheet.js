@@ -2,7 +2,12 @@
  * Created by Administrator on 2017/3/21.
  */
 $(function () {
-    //window.history.pushState(null, null, "?id= ");
+
+
+    $('.go_back').click(function () {
+        window.history.back();
+    });
+    //window.history.pushState(null, null, "?id=18");
     var url_suffix=window.location.search;
     var id=url_suffix.replace(/[^0-9]+/ig,"");
 
@@ -20,7 +25,7 @@ $(function () {
         data:{activity_id:id},
         url:'http://api2.shanhecang.com/promotion_detail',
         success:function (msg) {
-            console.log(msg);
+            //console.log(msg);
             var activity_data = new Date(Number(msg.data.activity_end_date)*1000);
             active_time.html(formatDate(activity_data));
             active_title.html(msg.data.activity_title);

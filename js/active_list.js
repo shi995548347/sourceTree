@@ -16,10 +16,8 @@ $(function () {
         success:function (msg) {
             var str='';
             for(var i=0;i<msg.data.list.length;i++){
-                //console.log(msg.data.list[i].activity_id);
                 var activity_data = new Date(Number(msg.data.list[i].activity_end_date)*1000);
-                //activity_end_date.html(formatDate(activity_data));
-                str += '<a href="active_sheet.html?id="'+msg.data.list[i].activity_id+' class="swiper-slide" style="background:#ddd"><div class="active_list_text"><p class="active_list_title">'+msg.data.list[i].activity_title+'</p><p class="active_list_engTitle">截止日期<span class="active_list_time">'+formatDate(activity_data)+'</span></p></div></a>';
+                str += '<a href="active_sheet.html?id='+msg.data.list[i].activity_id+'" class="swiper-slide" style="background:#ddd"><div class="active_list_text"><p class="active_list_title">'+msg.data.list[i].activity_title+'</p><p class="active_list_engTitle">截止日期<span class="active_list_time">'+formatDate(activity_data)+'</span></p></div></a>';
             }
             $('.swiper-wrapper').append(str);
         }
