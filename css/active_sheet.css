@@ -1,0 +1,45 @@
+.active_sheet{
+    position: relative;
+}
+.active_sheet_bg{
+    width: 7.5rem;
+    height: 13.34rem;
+    background: #ddd;
+}
+
+.active_describe{
+    position: absolute;
+    top:.6rem;
+    left:.3rem;
+    bottom: 0;
+    right: 0;
+}
+.active_text{
+    position: absolute;
+    bottom: .4rem;
+    right: .4rem;
+    left: 0;
+    color: #fff;
+    margin-left: .08rem;
+}
+.active_text_bottom{
+    display: flex;
+    flex-flow: row;
+    margin-top: .2rem;
+}
+.active_title{
+    font-size: .36rem;
+}
+.active_title2{
+    font-size: .28rem;
+}
+.active_bottom_right{
+    margin-left: auto;
+    text-align: right;
+}
+.active_time{
+    font-size: .24rem;
+}
+.describe{
+    font-size: .24rem;
+}
