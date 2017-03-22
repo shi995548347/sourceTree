@@ -101,12 +101,11 @@
 			$(function(){
 
                 var article_comment_count=$('.comment_count');
-                var article_liked_count=$('.like_count');
                 var article_img=$('.article_img');
+                var article_liked_count=$('.like_count');
                 var author_head=$('.author_head');
 
 				//获取点击的文章的ID
-                //window.history.pushState(null, null, "?id=41");
                 var url_suffix=window.location.search;
                 var id=url_suffix.replace(/[^0-9]+/ig,"");
 

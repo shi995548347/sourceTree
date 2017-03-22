@@ -7,7 +7,6 @@ $(function () {
     $('.go_back').click(function () {
         window.history.back();
     });
-    //window.history.pushState(null, null, "?id=18");
     var url_suffix=window.location.search;
     var id=url_suffix.replace(/[^0-9]+/ig,"");
 
